@@ -1,7 +1,10 @@
 package Aplicattion;
 
+import BoardGame.Position;
+
 public class Program {
     public static void main (String[] args){
-        System.out.println("oi");
+        Position pos = new Position(5, 3);
+        System.out.println(pos);
     }
 }
